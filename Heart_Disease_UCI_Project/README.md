@@ -1,6 +1,7 @@
 # ❤️ Heart Disease Prediction Project
 
-A simple machine learning project that predicts the chances of heart disease using data science techniques. It includes cleaning the data, training models, checking results, and a small Streamlit app for real-time predictions.
+A beginner-friendly machine learning project that predicts the chances of heart disease.
+It covers everything from cleaning the data to training models, checking results, and even building a simple Streamlit app for real-time predictions.
 
 ---
 
@@ -10,24 +11,50 @@ A simple machine learning project that predicts the chances of heart disease usi
 Heart_Disease_Project/
 │── data/                 # dataset
 │── notebooks/            # step-by-step Jupyter notebooks
-│── models/               # trained model (.pkl)
+│── models/               # saved trained model (.pkl)
 │── ui/                   # Streamlit app
 │── deployment/           # ngrok setup notes
 │── results/              # evaluation metrics
-│── README.md             # this file
-│── requirements.txt      # needed libraries
+│── README.md             # project documentation
+│── requirements.txt      # required libraries
 │── .gitignore            # ignored files
 ```
 
 ---
 
-## 🚀 What this project does
+## 🚀 Features
 
-* Cleans and prepares medical data
+* Cleans and prepares medical data for analysis
 * Reduces data complexity using PCA and feature selection (RFE)
 * Trains supervised models: Logistic Regression, Decision Tree, Random Forest, SVM
-* Tests unsupervised models: K-Means, Hierarchical Clustering
-* Tunes models with GridSearchCV / RandomizedSearchCV
-* Runs a Streamlit app for quick predictions
+* Experiments with unsupervised models: K-Means, Hierarchical Clustering
+* Optimizes models using GridSearchCV and RandomizedSearchCV
+* Includes a Streamlit app for quick, real-time predictions
+
+---
+
+## ▶️ How to Run
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/Heart_Disease_Project.git
+   cd Heart_Disease_Project
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Streamlit app**
+
+   ```bash
+   streamlit run ui/app.py
+   ```
+
+4. **(Optional) Share the app online**
+   Use Ngrok following the steps in `deployment/ngrok_setup.txt`.
 
 ---
