@@ -37,7 +37,7 @@ Heart_Disease_Project/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/Heart_Disease_Project.git
+   git clone https://github.com/Shaheen91/Heart_Disease_Project.git
    cd Heart_Disease_Project
    ```
 
