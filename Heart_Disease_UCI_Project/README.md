@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Prediction Project
 
-A beginner-friendly machine learning project that predicts the chances of heart disease.
+A simple machine learning project that predicts the chances of heart disease.
 It covers everything from cleaning the data to training models, checking results, and even building a simple Streamlit app for real-time predictions.
 
 ---
@@ -13,7 +13,6 @@ Heart_Disease_Project/
 │── notebooks/            # step-by-step Jupyter notebooks
 │── models/               # saved trained model (.pkl)
 │── ui/                   # Streamlit app
-│── deployment/           # ngrok setup notes
 │── results/              # evaluation metrics
 │── README.md             # project documentation
 │── requirements.txt      # required libraries
@@ -38,7 +37,7 @@ Heart_Disease_Project/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/Heart_Disease_Project.git
+   git clone https://github.com/Shaheen91/Heart_Disease_Project.git
    cd Heart_Disease_Project
    ```
 
@@ -53,8 +52,3 @@ Heart_Disease_Project/
    ```bash
    streamlit run ui/app.py
    ```
-
-4. **(Optional) Share the app online**
-   Use Ngrok following the steps in `deployment/ngrok_setup.txt`.
-
----
