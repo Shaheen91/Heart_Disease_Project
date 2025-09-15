@@ -10,7 +10,3 @@ Accuracy: 0.7587939698492462
     accuracy                           0.76       597
    macro avg       0.59      0.58      0.54       597
 weighted avg       0.77      0.76      0.75       597
-
-
-
-ue label
